@@ -15,9 +15,9 @@ namespace FindTextInImage
         static async Task Main(string[] args)
         {
             Console.Clear();
-            Console.Title = "OCR Scanner │ whoswhip";
+            Console.Title = "TextScanX │ whoswhip";
             await InitAsync();
-            Console.Write("┌───┤OCR Scanner├───┐\n│[1] Search Files   │\n│[2] Search for Text│\n└[»]                ┘");
+            Console.Write("┌────┤TextScanX├────┐\n│[1] Search Files   │\n│[2] Search for Text│\n└[»]                ┘");
             Console.CursorLeft = 5;
             var choice = Console.ReadKey().KeyChar.ToString();
             switch (choice)
@@ -25,7 +25,7 @@ namespace FindTextInImage
                 case "1":
                     Console.Clear();
                     Console.Title = "Finding Text │ whoswhip";
-                    Console.Write("┌─────────┤OCR Scanner├────────┐\n│[1] Normal Directory Search   │\n│[2] Recursive Directory search│\n└[»]                           ┘");
+                    Console.Write("┌─────┤Directory Searching├────┐\n│[1] Normal Directory Search   │\n│[2] Recursive Directory search│\n└[»]                           ┘");
                     Console.CursorLeft = 5;
                     var choice2 = Console.ReadKey().KeyChar.ToString();
                     switch (choice2)
