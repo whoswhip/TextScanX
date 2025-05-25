@@ -43,4 +43,4 @@
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/whoswhip/TextScanX/blob/master/LICENSE.txt).
+This project is licensed under the [AGPL-3.0 License](https://github.com/whoswhip/TextScanX/blob/master/LICENSE.txt).
